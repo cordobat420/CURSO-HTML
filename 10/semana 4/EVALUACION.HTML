@@ -1,0 +1,19 @@
+<Script>
+    // camilo timaran ejercico jubilacion
+var edad;
+var antiguedad;
+
+edad = parseInt(prompt("ingrese edad"));
+antiguedad = parseInt(prompt("ingresar años trabajados"));
+if (edad>=60 && antiguedad < 25){
+    document.writeln("jubilacion por edad"); 
+}else if (edad<60 && antiguedad>=25){
+    document.writeln("jubilcion joven");
+}else if (edad>=60 && antiguedad >=25){
+    document.writeln("jubilacion adulta");
+}else{
+    document.writeln("la persona no se a jubilado");
+}
+
+
+</Script>

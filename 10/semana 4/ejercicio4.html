@@ -1,0 +1,25 @@
+<script>
+    document.writeln(" juan camilo codoba <br>")
+
+
+    var valoresmenores;
+
+    var valoresmayores;
+    var comision;
+
+
+    var v = parseInt(prompt("para cuantos vendedores se hara la comision"));
+
+    for (i = 1; i <= v; i++) {
+        valoresmenores = parseInt(prompt("ingrese el valor de ventas menores a 100000"));
+        valoresmayores = parseInt(prompt("ingrese el valor de ventas mayores a 100000"));
+
+        comision = (valoresmenores * 2.5 / 100) + (valoresmayores * 75 / 100);
+
+
+        document.writeln(" La comision  " + i + " es: " + comision + "<br>"); 
+
+    }
+
+
+</script>

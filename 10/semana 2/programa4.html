@@ -1,0 +1,31 @@
+<script>
+    //Dado los valores A, B, C capturados por el teclado se pide calcular y mostrar dichos resultados
+//El cuadrado de la suma
+//El producto de los valores leídos
+//El cubo del Producto
+//La diferencia entre el cuadrado de la suma con respecto al cubo del producto
+var a=0;
+var b=0;
+var c=0;
+a=parseInt(prompt("ingrese el numero a",0));
+b=parseInt(prompt("ingrese el numero b",0));
+c=parseInt(prompt("ingrese el numero c",0));
+
+var cuadrado=0;
+ cuadrado= (a+b+c)**2;
+var producto=0;
+ var producto=(a*b*c);
+ var cubo=0;
+ var cubo=(a+b+c)**3;
+ var diferencia=0;
+ var diferencia = cuadrado-cubo;
+
+ document.writeln("el cuadrado de la suma de a,b y c es: " + cuadrado + "<br>");
+ document.writeln("el producto de la suma de a,b y c es: ", + producto + "<br>");
+ document.writeln("el cubo de la suma de a,b y c es: ", + cubo + "<br>");
+ document.writeln("la diferencia de la suma de a,b y c es: ", + diferencia + "<br>");
+
+
+
+
+</script>
